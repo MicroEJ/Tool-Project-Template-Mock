@@ -5,4 +5,6 @@ plugins {
 group = "com.mycompany"
 version = "0.1.0-RC"
 
-
+dependencies {
+    compileOnly("com.microej.tool.runtime:mock-api:2.6.0")
+}
